@@ -1,6 +1,6 @@
 # Whis – Map (docs/01_mapa.md)
 
-> v0.1 · 01-nov-2026 · Draft for Sebastian's review. Step 2 of the GF agent blueprint. The design (02_diseno.md) answers the open questions in section 9.
+> v0.2 · 01-nov-2026 · Approved by Sebastian (w2). Step 2 of the GF agent blueprint. The design (02_diseno.md) answers the open questions in section 9.
 
 ## 1. Name and personality
 
@@ -39,7 +39,7 @@ Sebastian's chief of staff: turns what is open into what gets done – a nightly
 - Mark pending items complete or change their owner (he only reads Pendientes GF ST).
 - Touch Pendientes Personales ST.
 - Write to the Idea Pipeline except through the four diary skills, and never in the scheduled run.
-- Open the brain diary unless Sebastian asks; diary content never leaves the briefing.
+- Open the brain diary unless Sebastian asks; diary content never leaves the conversation.
 - Commit briefings, client data or confidential figures to GitHub.
 - Build decks, valuations, posts or websites himself – he routes them.
 - Invent dates, figures or owners – unknown = "{to confirm}".
@@ -97,7 +97,7 @@ The briefing is for Sebastian only. Anything Whis drafts or routes for the team 
 2. Briefing language: English (to Sebastian) or Spanish.
 3. ~~Copy the diary docs?~~ **Answered 01-nov: copy** `00-how-this-diary-works.md` and `06-handoff-pattern.md` into `docs/diario/`, dated; the diary originals win.
 4. ~~Is the board shared?~~ **Answered 01-nov: private.** It must stay private while `diary_inbox` lives there.
-5. Confirm a cloud run can read/write the artifact databases and SharePoint.
+5. Confirm a cloud run can read/write the artifact databases and SharePoint. **Partly answered 01-nov:** a live cloud session reads and writes the Idea Pipeline. Still to test: the 8 pm scheduled run, Pendientes GF ST, SharePoint, and Outlook/Granola (blocked by the WHIS environment's limited network until it is opened).
 6. Which commitments Whis tracks: only what the sources show, or also a hand-kept list (e.g. Sebastian's 11-nov commitments).
 7. Agent names differ between handoffs (Louis Litt / Suits, Pacari / Radar, Mary Poppings / Mary Poppins, Vision WACC / ~90 companies) – which is current?
 8. Nicolás Mora (GF Studio): what does he do, and does Whis route to him?
