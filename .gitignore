@@ -1,0 +1,9 @@
+# Never commit briefings, outputs, test inputs or answer keys
+briefings/
+outputs/
+tests/inputs/
+tests/answer-keys/
+*.docx
+*.xlsx
+*.pdf
+.env
