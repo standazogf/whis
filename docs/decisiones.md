@@ -12,6 +12,9 @@
 | 01-nov-2026 | Four diary skills; Idea Pipeline writes only through them, live sessions only | – |
 | 01-nov-2026 | Copy diary docs into docs/diario/; idea-handoff full mode via private artifact; board stays private | – |
 | 01-nov-2026 | Starter package | v0.0.1 |
+| 01-nov-2026 | Push approved changes to main; Claude GitHub App gives cloud sessions access | v0.0.1 |
+| 01-nov-2026 | Diary docs copied into docs/diario/; private planning line about a colleague removed from 06-handoff-pattern copy | v0.0.2 |
+| 01-nov-2026 | Keep diary skills in .claude/skills/ for now (they load in cloud sessions); plugin question goes to the design | – |
 
 ## Open items
-See `HANDOFF.md` section 4.
+See `HANDOFF.md` section 4. Plus: Outlook and Granola connectors are blocked by the WHIS environment's limited network (fix before w4).
